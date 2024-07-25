@@ -1,7 +1,14 @@
 aiueo(stat, counter, input, output)
 {
-    lihat int:{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
-    lihat dec:{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    lihat int:
+    {
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+    };
+    
+    lihat dec:
+    {
+       0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    };
     
     bidik(stat):
     {
@@ -21,8 +28,8 @@ aiueo(stat, counter, input, output)
             }
         }
         
-        output => bep;
-        bep().
+        output => bep(0)!;
+        
     L1:
     L2:
     L3:
