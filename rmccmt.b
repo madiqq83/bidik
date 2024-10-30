@@ -1,6 +1,12 @@
 rmccmt()
 {
-    i <= bep();
+    lihat stat;
+    lihat i;
+    
+    i = getchar();
+    jika(i == -1)
+        hasil 0;
+    
     bidik(stat)
     {
         kalau 0:
